@@ -1,0 +1,550 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(37, 34, 34);
+    color: #f3f3f3;
+    height: 100vh;
+    padding: 2rem 0rem;
+}
+
+/*********MEDIA QUERIES|| RESPONSIVENESS******* */
+
+@media(max-width: 84em){
+    nav{
+        max-width:120rem;
+
+    }
+}
+@media(max-width:20rem){
+    transaction{
+        max-width:50rem;
+
+    }
+}
+
+nav {
+    display: flex;
+    height: 14%;
+    gap: 8rem;
+    width: 100%;
+
+
+}
+
+.logo {
+
+    background-image: linear-gradient(80deg, #15c280, #caab1d);
+    -webkit-background-clip: text;
+    color:transparent;    
+    font-size: 2.5rem;
+    font-weight: 550;
+    margin-right: 6rem;
+    margin-left: 1.8rem;
+}
+
+.home {
+    color: #f3f3f3;
+    font-size: 1.3rem;
+}
+
+.contact {
+    margin-right: 14rem;
+    font-size: 1.3rem
+}
+
+.pair {
+    display: flex;
+    gap: 3rem;
+}
+
+.bell {
+    height: 3rem;
+    margin-left: 32rem;
+    color: #fcc419
+}
+
+.user {
+    height: 3rem;
+    color: #fcc419
+}
+
+/* CONTAINER  */
+
+.container {
+    display: flex;
+    gap: 12.6rem;
+    height: 86%;
+    
+
+}
+
+/* LEFT */
+
+.left {
+
+    height: 53vh;
+    width: 10vw;
+    border-radius: 1rem;
+    background-color: #343a40;
+
+}
+
+.Menu-one {
+    gap: 2rem;
+    display: flex;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #fcc419;
+    margin-bottom: 2.8rem;
+
+
+
+}
+
+.bars {
+    height: 3rem;
+    color: #fcc419;
+}
+
+.text-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.6rem;
+  
+}
+
+.Menu {
+    gap: 1.6rem;
+    display: flex;
+    padding: 1rem 1rem;
+    
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #adb5bd;
+}
+
+.icon {
+    height: 3rem;
+    color: #adb5bd;
+}
+
+
+
+
+/* MIDDLE */
+
+
+.middle {
+    margin-right: 16rem;
+}
+
+.card {
+
+    background-image: linear-gradient(to top left, #15c280, #70c922);
+    width: 36rem;
+    height: 18rem;
+    padding: 2.4rem;
+    border-radius: 0.7rem;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.balance {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.amount {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+
+.wallet {
+    height: 5.4rem;
+}
+
+.lower {
+    display: flex;
+    gap: 2rem;
+}
+
+.add {
+    color: black;
+    background-color: #fcc419;
+    padding: 1rem 4.2rem;
+    border-style: none;
+    border-radius: 0.5rem;
+
+}
+
+.withdraw {
+    background-color: #495057;
+    color: #adb5bd;
+    padding: 1rem 4.2rem;
+    border-style: none;
+    border-radius: 0.5rem;
+
+}
+
+.transactions-container {
+    display: flex;
+    margin-top: 2rem;
+    gap: 8rem;
+}
+
+.transaction {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.top {
+    display: flex;
+    gap: 32rem;
+}
+
+.head {
+    font-size: 1.8rem;
+}
+
+.view {
+    justify-self: flex-end;
+    padding-top: 0.5rem;
+    color: #fcc419;
+}
+
+.item {
+    display: flex;
+    gap: 30rem;
+}
+
+.sub-head {
+    display: flex;
+    gap: 1rem;
+}
+
+.arrow {
+    height: 2rem;
+    color: #fcc419;
+}
+
+.date {
+    color: #61666b;
+}
+
+
+.item-special {
+    display: flex;
+    gap: 19rem;
+}
+
+.deposit {
+    color: #22c922;
+    font-size: 1.2rem;
+}
+
+.pass {
+    font-size: 1.2rem;
+}
+
+.price {
+    color: #fa5252;
+    font-size: 1.2rem;
+}
+.adjacent{
+    display:flex;
+    flex-direction: column;
+
+}
+.failed{
+    display: flex;
+    gap: 0.7rem;
+}
+
+.error{
+    height: 1.3rem;
+    color:#fa5252;
+}
+
+.message {
+    color: #fa5252;
+    text-align: center;
+}
+
+
+
+/* RIGHT */
+
+
+.right {
+    border: 2px solid grey;
+    height: 45vh;
+    padding: 2rem 2rem;
+    border-radius: 0.8rem;
+    position: relative;
+}
+
+.mony {
+    font-size: 1.8rem;
+    margin-bottom: 1.4rem;
+}
+
+.input-box {
+    background-color: rgb(37, 34, 34);
+    padding: 1rem;
+    width: 28rem;
+    color: #f3f3f3;
+    border: #495057;
+}
+
+.popular {
+
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    background-image: linear-gradient(180deg, #2ca174, #cabe1d);
+    -webkit-background-clip: text;
+    color:transparent;
+    font-weight: bold;
+    position: absolute;
+    right:11.2rem;
+    top:8.5rem;
+  
+
+}
+
+.popular-choice {
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 3rem;
+}
+
+.money {
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #fcc419;
+    background-color: #61666b;
+    border: 1px solid #61666b;
+    border-radius: 0.7rem;
+}
+
+.money-green {
+    height: 2.5rem;
+    background-color: #12b886;
+    border-radius: 0.7rem;
+    border: 1px solid #12b886;
+}
+
+.building {
+    height: 3rem;
+}
+
+.send {
+    display: flex;
+    background-color: #775f16;
+    margin-top: 1.6rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    gap: 1.6rem;
+}
+
+.to {
+    font-size: 1.3rem;
+}
+
+.other {
+    display: flex;
+    gap: 5rem;
+}
+
+.other-left {
+    margin-top: 0.7rem;
+}
+
+.type {
+    color: #767d83;
+}
+
+.other-right {
+    margin-top: 1rem;
+}
+
+.know {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #fcc419;
+}
+
+.continue {
+    padding: 1rem 11rem;
+    margin-top: 1rem;
+    background-color: #15c280;
+    border: 1px solid #12b886;
+    border-radius: 0.6rem;
+
+}
+
+
+/* SECOND SECTION */
+
+.second-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display:none; */
+}
+.set-container{
+    position:absolute;
+    bottom: 10px;
+}
+
+
+.main {
+    height: 52rem;
+    width: 36rem;
+    background-color:#343a40;
+    padding: 2rem 3rem;
+    border-radius: 0.7rem;
+}
+.absolute{
+    position: relative;
+}
+
+.cancel {
+    height: 1.5rem;
+    position: absolute;
+    left:334px;
+    top:8px;
+    
+    
+
+}
+
+.status {
+    display: flex;
+    gap: 16rem;
+    margin-bottom: 1.5rem;
+}
+
+.left-status {
+    line-height: 1.6rem;
+    font-size: 1.1rem;
+}
+
+b {
+    font-size: 1.6rem;
+}
+
+.green-label {
+    display: flex;
+    gap:1rem;
+    background-color: #12b886;
+    padding:1.4rem 2rem;
+    border-radius: 0.6rem;
+}
+
+.tick {
+    height: 2.5rem;
+}
+.complete{
+    line-height:1.6rem;
+}
+.notification{
+font-size: 1.5rem;
+font-weight: bold;
+}
+.tap{
+    font-size:1.1rem;
+
+}
+
+.box{
+    border: 1px solid white;
+    margin-top: 1.5rem;
+    padding: 2rem 2rem;
+    border-radius: 0.7rem;
+    margin-bottom:0.6rem;
+}
+
+.from,
+.To {
+    display: flex;
+    gap:8.5rem;
+    margin-bottom: 2rem;
+    line-height:1.8rem ;
+}
+.mustard{
+    font-size: 1.4rem;
+    color: #775f16;
+}
+.name{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.sender {
+    height: 2.5rem;
+}
+.green{
+    height:2.6rem;
+    color:#12b886;
+}
+.payment {
+    display: flex;
+    gap:1rem;
+    line-height: 1.8rem;;
+}
+
+.double-icon {
+    height: 2.5rem;
+    color:#775f16;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap:0.5rem;
+}
+.help{
+    padding:1rem 4rem;
+    border-radius: 0.7rem;
+    border-style: none;
+    background-color: #fcc419;
+    
+
+}
+.share{
+    padding:1rem 4rem;
+    border-radius: 0.7rem;
+    border-style: none;
+    background-color: #202427;
+    color:#61666b;
+} 
+
+.hidden{
+    display: none;
+}
+.blur{
+    filter: blur(10px);
+}
